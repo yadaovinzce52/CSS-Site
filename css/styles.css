@@ -1,43 +1,74 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+H3 {
+    font-family: 'Lobster', cursive;
+    color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.footer-link {
+    color: #11999E;
+}
+
 .top {
     background-color: #7DE5ED;
     position: relative;
     padding-top: 100px;
 }
 
-.middle {
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
-}
-
-.bottom {
-    width: 200px;
-    height: 200px;
-    background-color: palevioletred;
-}
-
-h1 {
-    margin-top: 0;
-}
-
-body {
-    margin: 0;
-    text-align: center;
-    font-family: "Darlington Demo", cursive;
-}
-
-.pro {
-    text-decoration: underline;
-}
-
 .bottom_cloud {
     position: absolute;
-    left: 500px;
+    left: 600px;
     bottom: 300px;
 }
 
 .top_cloud {
     position: absolute;
-    right: 500px;
+    right: 600px;
     top: 50px;
+}
+
+.coding {
+    width: 25%;
+}
+
+.photo {
+    width: 25%;
+}
+
+.technologies {
+    width: 25%;
+}
+
+
+#profile {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
 }
