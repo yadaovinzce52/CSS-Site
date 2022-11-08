@@ -1,7 +1,43 @@
-body {
-    background-color: blue;
+.top {
+    background-color: #7DE5ED;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.bottom {
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
 }
 
 h1 {
-    color: white;
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Darlington Demo", cursive;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
 }
