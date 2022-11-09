@@ -102,20 +102,20 @@ p {
 }
 
 .coding {
-    width: 40%;
+    width: 25%;
     float: left;
     margin-right: 30px;
 }
 
 
 .technologies {
-    width: 40%;
+    width: 25%;
     float: right;
     margin-left: 30px;
 }
 
 .photo {
-    width: 40%;
+    width: 25%;
     float: left;
     margin-right: 30px;
 }
@@ -157,5 +157,5 @@ p {
 }
 
 #profile {
-    width: 30%;
+    width: 25%;
 }
